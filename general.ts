@@ -36,8 +36,9 @@ try {
 }
 let deisBinaryDir = process.env['SYSTEM_DEFAULTWORKINGDIRECTORY'];
 
+let deisBinary = deisBinaryDir + '/deis'
 
-let deis = new ToolRunner(tl.which(deisBinaryDir + '/deis', true));
+let deis = new ToolRunner(tl.which(deisBinary, true));
 deis.arg("auth:login");
 deis.arg(serverURI);
 deis.arg("--username=" + username);
@@ -51,7 +52,7 @@ try {
 }
 
 
-deis = new ToolRunner(tl.which(deisBinaryDir + '/deis', true));
+deis = new ToolRunner(tl.which(deisBinary, true));
 deis.arg(subCommand);
 if (multilineArgs) {
     multilineArgs.split(/\s+/).map(function (x) { deis.arg(x) });
