@@ -1,7 +1,7 @@
 {
 "manifestVersion": 1,
   "id": "deis-workflow-endpoint",
-  "version": "0.1.4",
+  "version": "0.1.7",
   "name": "Deis extension",
   "description": "Enabling Deis command with storing secret on the endpoint",
   "publisher": "TsuyoshiUshio",

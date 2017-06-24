@@ -17,6 +17,7 @@
     "mocha": "^3.4.2",
     "mocha-junit-reporter": "^1.13.0",
     "path": "^0.12.7",
+    "q": "^1.5.0",
     "vsts-task-lib": "^2.0.5"
   }
 }
