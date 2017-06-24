@@ -1,0 +1,8 @@
+*.vsix
+*.js
+node_modules
+ApplyTaskFolder/node_modules
+.taskkey
+.vscode
+test-results.xml
+config

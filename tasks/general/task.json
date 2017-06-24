@@ -1,0 +1,54 @@
+{
+  "id": "8a37abe0-5631-11e7-ac15-6fc4e1d09908",
+  "name": "deis",
+  "friendlyName": "Deis Workflow Task",
+  "description": "Deis Workflow Task",
+  "author": "Tsuyoshi Ushio",
+  "helpMarkDown": "Replace with markdown to show in help",
+  "category": "Utility",
+  "visibility": [
+    "Build",
+    "Release"
+  ],
+  "demands": [],
+  "version": {
+    "Major": "0",
+    "Minor": "1",
+    "Patch": "4"
+  },
+  "minimumAgentVersion": "1.95.0",
+  "instanceNameFormat": "deis $(message)",
+  "inputs": [
+    {
+      "name": "DeisService",
+      "type": "connectedService:deis",
+      "label": "deis endpoint",
+      "required": true,
+      "helpMarkDown": "Select Deis workflow endopoint to use."
+    },
+     {
+      "name": "subCommand",
+      "type": "string",
+      "label": "Sub Command",
+      "defaultValue": "",
+      "required": true,
+      "helpMarkDown": "deis sub command"
+    },
+    {
+      "name": "arguments",
+      "type": "multiLine",
+      "properties": {
+        "resizable": "true",
+        "rows": "2"
+      },
+      "label": "Arguments",
+      "helpMarkDown": "deis arguments. Specify arguments with space or a new line"
+    }
+  ],
+  "execution": {
+    "Node": {
+      "target": "general.js",
+      "argumentFormat": ""
+    }
+  }
+}
