@@ -4,7 +4,7 @@
   "friendlyName": "Deis Workflow Task",
   "description": "Deis Workflow Task",
   "author": "Tsuyoshi Ushio",
-  "helpMarkDown": "Replace with markdown to show in help",
+  "helpMarkDown": "[More Information](https://github.com/TsuyoshiUshio/DeisTask)",
   "category": "Utility",
   "visibility": [
     "Build",

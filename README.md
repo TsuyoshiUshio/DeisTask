@@ -3,7 +3,7 @@ Deis Task for VSTS
 
 This task is an unofficial Deis workflow task for VSTS. This task help you to execute deis workflow command without login and downloading deis binary.
 
-Currently, this task is private preview. If you want to use it, please let me know.
+Currently, this task is private preview. If you want to use it, please let me know. The GitHub Repository is [here](https://github.com/TsuyoshiUshio/DeisTask).
 
 ![Header](https://raw.githubusercontent.com/TsuyoshiUshio/DeisTask/master/images/marketplace.png)
 
