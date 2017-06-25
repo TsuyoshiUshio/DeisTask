@@ -1,7 +1,7 @@
 {
 "manifestVersion": 1,
   "id": "deis-workflow-endpoint",
-  "version": "0.1.7",
+  "version": "0.1.9",
   "name": "Deis extension",
   "description": "Enabling Deis command with storing secret on the endpoint",
   "publisher": "TsuyoshiUshio",
@@ -69,7 +69,7 @@
           }
 
         ],
-        "helpMarkDown": "<a href=\"url-to-documentation\" target=\"_blank\"><b>Learn More</b></a>"
+        "helpMarkDown": "<a href=\"https://github.com/TsuyoshiUshio/DeisTask\" target=\"_blank\"><b>Learn More</b></a>"
       }
     },
     {
